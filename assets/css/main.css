@@ -5,7 +5,6 @@
     margin:0;
     border:none;
 }
-
 body {
     font-family: Roboto;
     background-image: url("../images/thegreatestbackground.png");
@@ -13,7 +12,26 @@ body {
     background-repeat: no-repeat;
     overflow-y: hidden;
 }
-
-h2 {
-    font-family: Archivo;
+#logo {
+    float:left;
 }
+#nav-bar li {
+    list-style-type: none;
+}
+.nav-item {
+    float: right;
+    margin-right:1px;
+    text-transform: uppercase;
+    background-color:#379392;
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    text-align: center;
+}
+.nav-item h2 {
+    font-size: smaller;
+    color:white;
+    border-radius: 3px;
+    margin-top: 38px;
+}
+
