@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Roboto:wght@300&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    border:none;
+}
+
+body {
+    font-family: Roboto;
+    background-image: url("../images/thegreatestbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+h2 {
+    font-family: Archivo;
+}
