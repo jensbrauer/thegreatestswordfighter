@@ -84,6 +84,7 @@ body {
     margin:0 auto;
     width:60%;
     background-color: red;
+    height:1200px;
 }
 
 #content-area-header {
@@ -91,4 +92,33 @@ body {
     text-align: center;
     background-color: #379392;
     border-radius: 5px;
+}
+
+#footer-container {
+    width:100%;
+    height:100px;
+    background-color: blueviolet;
+    position:absolute;
+    bottom:0;
+    text-align: center;
+}
+#footer-link-container {
+    width:100%;
+    height:20px;
+    background-color: aqua;
+}
+#left-footer {
+    float:left;
+    width:40%;
+    height:10px;
+    background-color:cadetblue;
+    text-align: right;
+}
+
+#right-footer {
+    float:right;
+    width:40%;
+    height:10px;
+    background-color:cadetblue;
+    text-align: left;
 }
