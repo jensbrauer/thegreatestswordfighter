@@ -8,21 +8,31 @@
 
 body {
     font-family: Roboto;
+    overflow: hidden;
 }
 
 #header-container {
-    margin: 20px;
+    margin: 5px;
     height:90px;
-    overflow:visible;
+}
+
+#logo-container {
+    height:100px;
+    width:50%;
+    float:left;
 }
 
 #logo {
-    float:left;
+    margin-top: 7px;
+    text-align: right;
+    float:right;
     font: size 400px;
+    margin-right: 5%;
 }
 
 #navbar-container {
-    background:white;
+    width:50%;
+    height:100px;
     float:right;
 }
 
@@ -32,7 +42,7 @@ body {
 }
 
 .nav-item {
-    float: right;
+    float: left;
     margin-right:1px;
     text-transform: uppercase;
     background-color:#379392;
@@ -52,24 +62,33 @@ body {
     width:100%;
 }
 #lefter {
-    width:25%;
-    height:800px;
+    width:20%;
+    height:400px;
     background-image: url(../images/leftsamurai.png);
     background-size: contain;
     background-repeat: no-repeat;
     float:left;
+    margin-top: 20px;
 }
 #righter {
-    width:25%;
+    width:20%;
     height:400px;
     background-image: url(../images/rightsamurai.png);
     background-size: contain;
     background-repeat: no-repeat;
     float:right;
+    margin-top: 20px;
 
 }
 #centerer {
     margin:0 auto;
-    width:50%;
+    width:60%;
     background-color: red;
+}
+
+#content-area-header {
+    color:white;
+    text-align: center;
+    background-color: #379392;
+    border-radius: 5px;
 }
