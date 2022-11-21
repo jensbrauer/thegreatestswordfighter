@@ -19,8 +19,14 @@ body {
     font: size 400px;
 }
 
+#navbar-container {
+    background:white;
+    float:right;
+}
+
 #nav-bar li {
     list-style-type: none;
+    display:inline;
 }
 
 .nav-item {
