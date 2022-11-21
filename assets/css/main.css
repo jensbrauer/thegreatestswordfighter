@@ -8,12 +8,12 @@
 
 body {
     font-family: Roboto;
-    overflow-y: hidden;
 }
 
 #header-container {
-    background-color:red;
+    margin: 20px;
     height:90px;
+    overflow:visible;
 }
 
 #logo {
@@ -50,28 +50,26 @@ body {
 }
 #page-container {
     width:100%;
-    align-items: center;
-}
-#page-content-wrapper {
-    width:800px;
-    height:400px;
-    background-color: aqua;
-    margin: auto;
 }
 #lefter {
-    width:32%;
-    background-color: #379392;
+    width:25%;
+    height:800px;
+    background-image: url(../images/leftsamurai.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     float:left;
-
 }
 #righter {
-    width:32%;
-    background-color: #379392;
+    width:25%;
+    height:400px;
+    background-image: url(../images/rightsamurai.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     float:right;
 
 }
 #centerer {
     margin:0 auto;
-    width:32%;
+    width:50%;
     background-color: red;
 }
